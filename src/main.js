@@ -45,7 +45,7 @@ form.addEventListener("submit", async (e) => {
     iziToast.error({
       title: "Error",
       message: error.message,
-      position: "topRight",
+      position: "topLeft",
     });
   } finally {
     loader.style.display = "none";
